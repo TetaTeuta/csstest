@@ -3,14 +3,18 @@ body{
   font-family: 'Bellota Text', cursive;
 }
 
+h1, p{
+  text-align: center;
+}
+
 .container{
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr  ;
   grid-gap: 10px;
-  padding: 10px;
   box-sizing: border-box;
+  padding: 3%;
 
 }
 
